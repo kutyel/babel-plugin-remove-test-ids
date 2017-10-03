@@ -21,9 +21,9 @@ $ npm install babel-plugin-remove-test-ids --save
 ## Usage
 
 **.babelrc**
-```js
+```json
 {
-  plugins: [
+  "plugins": [
     "remove-test-ids"
   ]
 }
