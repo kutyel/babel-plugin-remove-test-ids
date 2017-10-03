@@ -1,5 +1,7 @@
 # babel-plugin-remove-test-ids
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kutyel/babel-plugin-remove-test-ids.svg)](https://greenkeeper.io/)
+
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 [![Node version](https://img.shields.io/node/v/babel-plugin-remove-test-ids.svg?style=flat-square)](https://www.npmjs.org/package/babel-plugin-remove-test-ids)
