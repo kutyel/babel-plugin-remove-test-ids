@@ -2,7 +2,7 @@
   "name": "babel-plugin-remove-test-ids",
   "description": "Babel plugin to remove data-test-id attributes from the DOM",
   "homepage": "https://documentup.com/kutyel/babel-plugin-remove-test-ids",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "name": "Flavio Corpa",
