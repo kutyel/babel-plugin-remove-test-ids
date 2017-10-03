@@ -1,12 +1,14 @@
 # babel-plugin-remove-test-ids
 
-![Last version](https://img.shields.io/github/tag/kutyel/babel-plugin-remove-test-ids.svg?style=flat-square)
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+[![Node version](https://img.shields.io/node/v/babel-plugin-remove-test-ids.svg?style=flat-square)](https://www.npmjs.org/package/babel-plugin-remove-test-ids)
 [![Build Status](https://img.shields.io/travis/kutyel/babel-plugin-remove-test-ids/master.svg?style=flat-square)](https://travis-ci.org/kutyel/babel-plugin-remove-test-ids)
 [![Coverage Status](https://img.shields.io/coveralls/kutyel/babel-plugin-remove-test-ids.svg?style=flat-square)](https://coveralls.io/github/kutyel/babel-plugin-remove-test-ids)
 [![Dependency status](https://img.shields.io/david/kutyel/babel-plugin-remove-test-ids.svg?style=flat-square)](https://david-dm.org/kutyel/babel-plugin-remove-test-ids)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/kutyel/babel-plugin-remove-test-ids.svg?style=flat-square)](https://david-dm.org/kutyel/babel-plugin-remove-test-ids#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/babel-plugin-remove-test-ids.svg?style=flat-square)](https://www.npmjs.org/package/babel-plugin-remove-test-ids)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kutyel)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/flaviocorpa)
 
 > Babel plugin to remove `data-test-id` attributes from the JSX
 
