@@ -1,0 +1,64 @@
+{
+  "name": "babel-plugin-remove-test-ids",
+  "description": "Babel plugin to remove data-test-id attributes from the DOM",
+  "homepage": "https://documentup.com/kutyel/babel-plugin-remove-test-ids",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Flavio Corpa",
+    "url": "https://github.com/kutyel"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutyel/babel-plugin-remove-test-ids.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kutyel/babel-plugin-remove-test-ids/issues"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "coveralls": "latest",
+    "git-dirty": "latest",
+    "jest": "latest",
+    "prettier-standard": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "lint": "standard-markdown && standard",
+    "prelint": "npm run pretty",
+    "pretest": "npm run lint",
+    "pretty": "prettier-standard index.js test.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "license": "MIT",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
