@@ -2,12 +2,7 @@
 
 module.exports = () => ({
   visitor: {
-    JSXAttribute: (path, state) => {
-      let removeAttribute = 'data-test-id'
-      if (state.opts.attribute) {
-        removeAttribute = state.opts.attribute
-      }
-      return path.node.name.name === removeAttribute && path.remove()
-    }
+    JSXAttribute: (path, { opts: { attributes = ['data-test-id'] }}) => 
+      attributes.includes(path.node.name.name) && path.remove()
   }
 })
