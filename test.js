@@ -4,7 +4,7 @@ const conf = { plugins: ['syntax-jsx', './index.js'] }
 const confWithOptions = {
   plugins: [
     'syntax-jsx',
-    ['./index.js', { attribute: 'data-custom-test-attr' }]
+    ['./index.js', { attributes: ['data-custom-test-attr'] }]
   ]
 }
 
