@@ -28,6 +28,19 @@ $ npm install babel-plugin-remove-test-ids --save
   ]
 }
 ```
+... you can also configure it with your attributes!
+```json
+{
+  "plugins": [
+    [
+      "remove-test-ids",
+      {
+        "attributes": ["data-test", "data-custom-test-attr"]
+      }
+    ]
+  ]
+}
+```
 
 ## Motivation
 
