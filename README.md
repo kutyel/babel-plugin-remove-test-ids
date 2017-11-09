@@ -46,7 +46,7 @@ $ npm install babel-plugin-remove-test-ids --save
 
 In **React Alicante 2017**, [Forbes Lindsay](https://github.com/ForbesLindesay) gave a [talk](https://github.com/ForbesLindesay/end-to-end-testing-react-applications/blob/master/end%20to%20end%20testing%20react%20applications.pdf) about *"End to End testing React applications"* with [**cabbie**](https://github.com/ForbesLindesay/cabbie) and explained the pattern of adding `data-test-id` props to your components as a good practice for improving testability.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/veb-xTGZulY" frameborder="0" gesture="media" allowfullscreen></iframe>
+[![video](http://img.youtube.com/vi/veb-xTGZulY/0.jpg)](http://www.youtube.com/watch?v=veb-xTGZulY)
 
 He also mentioned that it would be *"fairly easy to do a Babel plugin"* to strip those attributes from the actual DOM, if you care enough. :)
 
