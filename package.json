@@ -40,7 +40,7 @@
     "lint": "standard-markdown && standard",
     "prelint": "npm run pretty",
     "pretest": "npm run lint",
-    "pretty": "prettier-standard index.js test.js",
+    "pretty": "prettier-standard index.js index.test.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
