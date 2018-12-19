@@ -2,7 +2,7 @@
 
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-[![Node version](https://img.shields.io/node/v/babel-plugin-remove-test-ids.svg?style=flat-square)](https://www.npmjs.org/package/babel-plugin-remove-test-ids)
+[![NPM version](https://img.shields.io/npm/v/babel-plugin-remove-test-ids.svg?style=flat-square)](https://www.npmjs.org/package/babel-plugin-remove-test-ids)
 [![Build Status](https://img.shields.io/travis/kutyel/babel-plugin-remove-test-ids/master.svg?style=flat-square)](https://travis-ci.org/kutyel/babel-plugin-remove-test-ids)
 [![Coverage Status](https://img.shields.io/coveralls/kutyel/babel-plugin-remove-test-ids.svg?style=flat-square)](https://coveralls.io/github/kutyel/babel-plugin-remove-test-ids)
 [![Dependency status](https://img.shields.io/david/kutyel/babel-plugin-remove-test-ids.svg?style=flat-square)](https://david-dm.org/kutyel/babel-plugin-remove-test-ids)
